@@ -10,7 +10,7 @@
     color: white;
     background-color: #4E47FF;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
     border: none;
     border-radius: 5px;
     text-align: center;
@@ -20,10 +20,12 @@
     cursor: pointer;
     padding: 12px 24px;
     transition: background 0.3s ease;
+   
+    
     
 }
-.launch-button:hover {
-  background-color: #4E47FF ;
+.btn-primary:hover {
+  background-color: #400528;
 }
 .second-btn{
     margin-bottom: 150px;
@@ -136,3 +138,117 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+/* reviewer styles */
+.testimonials {
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 110px;
+    
+}
+
+.testimonials h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.testimonial-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    background: #f4f2f2;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 300px;
+    text-align: left;
+}
+
+.stars {
+    font-size: 18px;
+    color: #f4b400;
+    margin-bottom: 10px;
+}
+
+.testimonial-card h3 {
+    font-size: 16px;
+    margin: 5px 0 10px;
+    color: #2e2e2e;
+}
+
+.testimonial-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+}
+
+.reviewer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.reviewer-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviewer-details .name,
+.reviewer-details .date {
+    font-size: 12px;
+    color: #777;
+}
+
+/* form styles */
+
+.contact-section {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+ 
+}
+
+.contact-section h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.contact-form label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  height: 100px;
+}
+.form-button{
+    width: 100%;
+}
+
